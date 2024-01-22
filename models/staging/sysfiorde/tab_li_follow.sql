@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_LI_FOLLOW_ORGAO as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_LI_FOLLOW_ORGAO
 
-}
+)
 
 SELECT
     TX_NREF,

@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_LI_FOLLOW_CUSTO as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_LI_FOLLOW_CUSTO
 
-}
+)
 SELECT
     CD_ND,
     CD_TIPO,

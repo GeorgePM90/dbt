@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_IMP_PROCESSO_LI as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_IMP_PROCESSO_LI
 
-}
+)
 
 SELECT
     CK_DI,

@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_LI_FOLLOW as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_LI_FOLLOW
 
-}
+)
 
 SELECT
     DT_LI,

@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_LI as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_LI
 
-}
+)
 SELECT
     _AIRBYTE_RAW_ID,
     _AIRBYTE_EXTRACTED_AT,

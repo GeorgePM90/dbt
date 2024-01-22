@@ -1,9 +1,9 @@
 {{ config(materialized='view')}}
 with TAB_LI_ITEM as 
-{
+(
     SELECT * FROM QA_RDS_DWQA.TAB_LI_ITEM
 
-}
+)
 SELECT
     TX_LI,
     CD_NCM,
