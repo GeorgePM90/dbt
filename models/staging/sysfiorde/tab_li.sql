@@ -5,9 +5,7 @@ with TAB_LI as
 
 )
 SELECT
-    _AIRBYTE_RAW_ID,
-    _AIRBYTE_EXTRACTED_AT,
-    _AIRBYTE_META,
+
     DT_LI,
     VL_FOB,
     CD_TIPO,
